@@ -1,0 +1,28 @@
+{
+    "name": "paypaxio/paypax-php",
+    "description": "PayPax Merchant API PHP Package",
+    "version": "1.0.0",
+    "type": "library",
+    "require": {
+        "php": ">=5.4.0"
+    },
+    "license": "GPLv2",
+    "autoload": {
+        "psr-4": {
+            "PaypaxPhp\\": "src/PayPaxPHP/"
+        }
+    },
+    "authors": [
+        {
+            "name": "eevraa",
+            "email": "ernest.evra1992@gmail.com"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [
+                "PaypaxPhp\\MerchantServiceProvider"
+            ]
+        }
+    }
+}
